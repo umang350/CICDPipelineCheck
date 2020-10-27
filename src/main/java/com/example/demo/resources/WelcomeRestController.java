@@ -13,7 +13,7 @@ public class WelcomeRestController {
 	
 	@GetMapping("/")
 	public String returnHome() {
-		return "Hello to check Pipeline redloy" ;
+		return "Hello to check Pipeline Redeploy" ;
 	}
 
 	@ApiOperation(value = "Get Welcome Message For The Given Name ", response = String.class, tags = "getWelcomeNote")
