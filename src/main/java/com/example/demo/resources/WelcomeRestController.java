@@ -12,7 +12,7 @@ import io.swagger.annotations.ApiOperation;
 public class WelcomeRestController {
 	
 	@GetMapping("/")
-	public String returnAdmin() {
+	public String returnHome() {
 		return "Hello to check Pipeline redloy" ;
 	}
 
